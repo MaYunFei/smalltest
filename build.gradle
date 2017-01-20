@@ -1,0 +1,98 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+  repositories {
+    jcenter()
+  }
+  dependencies {
+    classpath 'com.android.tools.build:gradle:2.2.3'
+    // NOTE: Do not place your application dependencies here; they belong
+    // in the individual module build.gradle files
+  }
+}
+
+allprojects {
+  repositories {
+    jcenter()
+  }
+}
+
+task clean(type: Delete) {
+  delete rootProject.buildDir
+}
+
+
+ext {
+  // Sdk and tools
+  minSdkVersion = 16
+  targetSdkVersion = 25
+  compileSdkVersion = 25
+  buildToolsVersion = '25.0.1'
+
+  // App dependencies
+  supportLibraryVersion = '25.1.0'
+  retrofitVersion = '2.1.0'
+  okhttpVersion = '3.5.0'
+  rxjavaVersion = '1.2.4'
+  rxandroidVersion = '1.2.1'
+
+}
+
+
+//-------------------------------------------------------------------
+
+// Small plugin
+
+//
+
+// Cannot automatically merge the buildscript in Android Studio 2.0+,
+
+// uncomment this section and sync the project to go into force.
+
+//-------------------------------------------------------------------
+
+
+
+buildscript  {
+
+    dependencies {
+
+        classpath 'net.wequick.tools.build:gradle-small:1.1.0-beta4'
+
+    }
+
+}
+
+
+
+apply plugin: 'net.wequick.small'
+
+
+
+small {
+
+    // Whether build all the bundles to host assets.
+
+    buildToAssets = false
+
+
+
+    // The compiling `net.wequick.small:small` aar version.
+
+    aarVersion = "1.1.0-alpha1"
+
+
+
+    // The project-wide Android version configurations
+
+    android {
+
+        compileSdkVersion = 25
+
+        buildToolsVersion = "25.0.1"
+
+        supportVersion = "25.1.0" // replace this with an explicit value
+
+    }
+
+}

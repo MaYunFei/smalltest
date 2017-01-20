@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_activity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.dongao.smalldemo.app.main.MainActivityActivity"
+    >
+  <!--<com.dongao.smalldemo.lib.widget.base.BaseToolbar-->
+      <!--android:layout_width="match_parent"-->
+      <!--android:layout_height="?attr/actionBarSize"-->
+      <!--android:layout_alignParentTop="true"-->
+      <!--app:TitleText="首页"-->
+      <!--android:background="?attr/colorPrimaryDark"-->
+      <!--android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"-->
+      <!--app:popupTheme="@style/ThemeOverlay.AppCompat.Light"-->
+      <!--/>-->
+  <android.support.v7.widget.AppCompatButton
+      android:id="@+id/login"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="登录"
+      />
+  <android.support.v7.widget.AppCompatButton
+      android:id="@+id/mainclient"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="@string/mainclient"
+      />
+  <android.support.v7.widget.AppCompatButton
+      android:id="@+id/congye"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="@string/congye"
+      />
+
+  <android.support.v7.widget.AppCompatButton
+      android:id="@+id/exam"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="@string/exam"
+      />
+  <android.support.v7.widget.AppCompatButton
+      android:id="@+id/scan"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="扫一扫"
+      />
+</android.support.v7.widget.LinearLayoutCompat>

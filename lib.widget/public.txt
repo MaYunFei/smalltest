@@ -1,0 +1,2 @@
+int attr TitleText 0x3f010000
+int layout include_base_toolbar 0x3f020000

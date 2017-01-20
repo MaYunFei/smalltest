@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="transparent">#00000000</color>
+
+  <color name="x_bg">#fff2f4f7</color>
+  <color name="white">#ffffff</color>
+  <color name="colorSplash">#0075A9</color>
+
+  <!-- App整体色调颜色 -->
+
+  <color name="color_primary">#FF7666</color>
+  <color name="color_primary_dark">#FF7666</color>
+  <color name="color_primary_light">#A03FB47C</color>
+
+  <!-- 字体颜色 -->
+  <color name="text_color_primary">#666666</color>
+  <color name="text_color_primary_dark">#333333</color>
+  <color name="text_second_color_primary">#727272</color>
+  <color name="text_color_primary_hint">#999999</color>
+  <color name="text_color_primary_enable">#CCCCCC</color>
+
+  <color name="divider_color">#dce1e9</color>
+
+  <color name="line">#dce1e9</color>
+
+  <color name="pull_to_refresh_text_color">#3f3f3f</color>
+  <color name="pull_to_refresh_subtext_color">#858585</color>
+
+  <!-- 以下要删除的部分 -->
+
+  <color name="text_color">#656565</color>
+  <color name="text_color_light">#999999</color>
+  <color name="text_color_enable">#CCCCCC</color>
+
+
+
+
+  <color name="alert">#ccCC0000</color>
+  <color name="confirm">#ccFF8800</color>
+  <color name="info">#cc669900</color>
+
+  <color name="textColor">#666666</color>
+  <!-- wyc  用暂时不能删除-->
+  <color name="scanner_pay_tittle_bg">#f9fafb</color>
+  <color name="gray_back">#ececec</color>
+  <color name="pay_total_price">#feaf32</color>
+  <color name="color_primary_hover">#F8F8F8</color>
+  <color name="pay_text_color">#666666</color>
+  <color name="errortest_color">#ff661a</color>
+  <color name="search_title">#ececec</color>
+  <color name="black">#000000</color>
+  <color name="text_title_right">#6debe9</color>
+  <color name="yellow">#FFFF00</color>
+
+  <color name="light_gray_1">#f2f2f2</color>
+  <color name="exam_list_line">#999999</color>
+  <color name="exam_list_error">#ff7666</color>
+  <color name="exam_list_right_rate">#50de69</color>
+  <color name="exam_list_item_line">#dce1e9</color>
+  <!--  wyc   -->
+
+  <color name="btn_blue_normal">#1e90ff</color>
+  <color name="btn_blue_pressed">#0066FF</color>
+  <color name="holo_blue_light">#ff33b5e5</color>
+  <!-- A light Holo shade of gray -->
+  <color name="holo_gray_light">#33999999</color>
+
+  <!--  wyc 2016.05.27  -->
+  <color name="exam_no_advice">#ff9600</color>
+  <color name="exam_test_question_bottom_bg">#ffffff</color>
+  <color name="exam_test_question_bottom_font">#666666</color>
+  <color name="exam_test_question_option_font">#999999</color>
+  <color name="exam_test_question_font">#333333</color>
+  <color name="exam_test_question_hearder_font_mu">#bbffffff</color>
+  <color name="exam_test_question_hearder_font_zi">#ffffff</color>
+  <color name="exam_test_question_score_scard_bg">#f2f4f7</color>
+  <color name="exam_test_question_score_scard_right_bg">#68cd3b</color>
+  <color name="exam_test_question_score_scard_line_bg">#e2e2e2</color>
+  <color name="grey">#8C8C8C</color>
+  <!--日历相关颜色-->
+  <color name="colorPrimaryDark">#303F9F</color>
+  <color name="colorAccent">#FF4081</color>
+  <color name="calendar_week_color">#cdcdcd</color>
+  <color name="private_teacher_item">#dbdbdb</color>
+
+  <!--by wp-->
+  <color name="dongao_red">#ffd9443b</color>
+  <color name="viewfinder_mask">#80e2e7ed</color>
+  <color name="result_view">#b0000000</color>
+  <color name="lightgreen">#99CC33</color>
+  <color name="green">#F5B1AD</color>
+  <color name="color_title">#FFFFFF</color>
+  <color name="navbarbackground">#D54636</color>
+  <color name="backgroundwhite">#ffffff</color>
+  <color name="top_bg">#FF7666</color>
+
+  <!--答疑-->
+  <color name="questin_tiwen_bg">#FFCDC7</color>
+</resources>

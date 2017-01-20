@@ -1,0 +1,4 @@
+int attr TitleText 0x3f010000
+int layout include_base_toolbar 0x3f020000
+int[] styleable BaseToolbar { 0x3f010000 }
+int styleable BaseToolbar_TitleText 0

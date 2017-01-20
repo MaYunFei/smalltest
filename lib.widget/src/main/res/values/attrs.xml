@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <declare-styleable name="BaseToolbar">
+    <attr format="string" name="TitleText"/>
+  </declare-styleable>
+</resources>

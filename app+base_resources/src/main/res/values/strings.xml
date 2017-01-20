@@ -1,0 +1,87 @@
+<resources>
+  <string name="app_name">App+base_resources</string>
+  <string name="mainclient">考前</string>
+  <string name="congye">从业</string>
+  <string name="exam">题库</string>
+
+  <string name="pull_to_refresh_click_more">加载更多</string>
+  <string name="last_updated">最后更新：</string>
+  <string name="select_subject_checknet">请检查您的网络</string>
+  <string name="add_question_ing">上传中，请稍后...</string>
+  <string name="add_question_update_error">更改问题失败请重试</string>
+  <string name="add_question_error">上传图片失败请重试</string>
+  <string name="app_version">东奥会计课堂%d</string>
+
+  <!--    wyc    -->
+
+  <string name="exam_solution_thinking">解题思路</string>
+  <string name="net_error">网络连接失败，请检查您的网络~</string>
+  <string name="chat_no_more_info">没有更多消息</string>
+  <string name="question_point">本题不支持作答，可在交卷后核对答案并查看解析</string>
+  <string name="right_text">答对</string>
+  <string name="error_text">答错</string>
+  <string name="score_card">答题卡</string>
+  <string name="collect">收藏</string>
+  <string name="exam_check_analyze">查看解析</string>
+  <string name="delete">刪除</string>
+  <string name="question">题</string>
+  <string name="xlistview_header_hint_normal">下拉刷新</string>
+  <string name="xlistview_header_hint_ready">松开刷新数据</string>
+  <string name="xlistview_header_hint_loading">正在加载...</string>
+  <string name="xlistview_footer_hint_normal">查看更多</string>
+  <string name="xlistview_footer_hint_ready">松开载入更多</string>
+  <string name="exam_uncomplete">您仍有试题未作答，确定交卷吗？</string>
+  <string name="exam_complete">您确定要交卷吗？</string>
+  <string name="exam_ongoing">您正在进行练习，确定要退出吗？</string>
+  <string name="exam_contiue">取消</string>
+  <string name="exam_submit">交卷</string>
+  <string name="exam_giveup">放弃此次做题</string>
+  <string name="exam_next_do">退出并保存</string>
+  <string name="exam_relavant_answer">本题答疑推荐</string>
+  <string name="scorecard_score">成绩</string>
+  <string name="scorecard_score_advice_title">You will never too late to learn!</string>
+  <string name="exam_report">答题报告</string>
+  <string name="study_bar_fragment_title">学吧</string>
+  <!--   by  wyc    -->
+  <string name="exam_prictice">随堂练习</string>
+  <string name="exam_falt">我的错题</string>
+  <string name="exam_list_have_done">已做</string>
+  <string name="exam_list_right_rate">正确率</string>
+  <string name="pay_install_wx">请安装最新版本微信客户端</string>
+  <string name="pay_loading">正在支付中...</string>
+  <string name="pay_internet_error">服务器繁忙，请稍后再试</string>
+  <string name="pay_price_later">订单优惠后的金额：</string>
+  <string name="pay_order_info">订单详情</string>
+  <string name="pay_result_error">支付失败</string>
+  <string name="pay_result_success">支付成功</string>
+  <string name="pay_result_success_title">您已经购买成功！</string>
+  <string name="pay_result_back">返回首页</string>
+  <string name="pay_result_back_dingdan">返回订单</string>
+  <string name="pay_result_continue">继续购买</string>
+  <string name="pay_result_restart_buy">重新支付</string>
+  <string name="check_net">联网失败，请检查您的网络</string>
+  <string name="test">这是测试哦！ </string>
+  <string name="exam_advice">提示</string>
+  <string name="loading">加载中…</string>
+  <string name="pay_order_title">购买</string>
+  <string name="cancel">取消</string>
+
+  <string name="exam_score1">通往你成功的路是在施工么？</string>
+  <string name="exam_score2">You will never too late to learn!</string>
+  <string name="exam_score3">付出终有回报,成绩还能提高。</string>
+  <string name="exam_score4">学霸就是任性。</string>
+
+  <string name="monday">一</string>
+  <string name="tuseday">二</string>
+  <string name="wednesday">三</string>
+  <string name="thursday">四</string>
+  <string name="friday">五</string>
+  <string name="saturday">六</string>
+  <string name="sunday">日</string>
+
+  <!-- wp-->
+  <string name="dialog_title_vedio">视频加载异常！</string>
+  <string name="dialog_message_vedio">请确认网络是否联通。</string>
+  <string name="dialog_warnning_vedio">您当前使用的3G/4G网络，是否继续？</string>
+  <string name="dialog_title_download">视频下载异常！</string>
+</resources>

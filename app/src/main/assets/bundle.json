@@ -1,0 +1,17 @@
+{
+  "version": "1.0.0",
+  "bundles": [
+    {
+      "uri": "main",
+      "pkg": "com.dongao.smalldemo.app.main"
+    },
+    {
+      "uri": "lib.data",
+      "pkg": "com.dongao.smalldemo.lib.data"
+    },
+    {
+      "uri": "lib.widget",
+      "pkg": "com.dongao.smalldemo.lib.widget"
+    }
+  ]
+}

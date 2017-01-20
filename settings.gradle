@@ -1,0 +1,5 @@
+include ':app',
+    ':app+base_resources',
+    ':app.main',
+    ':lib.data',
+    ':lib.widget'
